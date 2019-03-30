@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "993470104204",
+    "firebase_url": "https://skynote-60791.firebaseio.com",
+    "project_id": "skynote-60791",
+    "storage_bucket": "skynote-60791.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993470104204:android:f5f138686ce2beed",
+        "android_client_info": {
+          "package_name": "noteapp.cloudnotebook.grantespo.notesprocloudnotepad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993470104204-cehfkd7het0eai0rn0hqjh00acmlfkr6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "noteapp.cloudnotebook.grantespo.notesprocloudnotepad",
+            "certificate_hash": "bbec845f74b9d9d31023c0974cfcf02d1708d67c"
+          }
+        },
+        {
+          "client_id": "993470104204-q65s69a6fl1hgs79voefhc8ba1mlo71f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyAjM0s1ndsqZeRNFwL4tIFLxpxlq7dOY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993470104204-q65s69a6fl1hgs79voefhc8ba1mlo71f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

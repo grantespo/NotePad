@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ThemeActivity">
+
+    <LinearLayout
+        android:id="@+id/themeHeader"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:orientation="horizontal"
+        android:background="@drawable/headbg"
+        android:layout_width="0dp"
+        android:layout_height="72dp">
+
+        <TextView
+            android:id="@+id/themeBack"
+            android:text="@string/back"
+            android:background="@drawable/roundedcorner"
+            android:layout_marginStart="5dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:textAlignment="center"
+            android:textSize="27sp"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/themeBar"
+            android:layout_weight="0.8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/themeTitle"
+                android:text="@string/themes"
+                android:fontFamily="serif"
+                android:layout_marginStart="25dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="35sp"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/themeRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/themeHeader"/>
+
+</android.support.constraint.ConstraintLayout>

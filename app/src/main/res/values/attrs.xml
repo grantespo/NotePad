@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+       <attr name="colorStart" format="color" />
+        <attr name="colorCenter" format="color" />
+        <attr name="colorEnd" format="color" />
+
+</resources>

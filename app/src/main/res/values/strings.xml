@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">SkyNote</string>
+    <string name="client_key">ef487dwhdjcndhjvr475ekefrriuf4745bcbvdsjlror8</string>
+    <string name="web_client_id">993470104204-q65s69a6fl1hgs79voefhc8ba1mlo71f.apps.googleusercontent.com</string>
+    <string name="notes">Notes</string>
+    <string name="note">Note</string>
+    <string name="save">Save</string>
+    <string name="today">Today</string>
+    <string name="title">Title…</string>
+    <string name="body">Body…</string>
+    <string name="deletenote">Delete Note</string>
+    <string name="copyright">Copyright SkyNote. All Rights Reserved &#169;</string>
+    <string name="terms">Terms of Service</string>
+    <string name="privacy">Privacy Policy</string>
+    <string name="logout">Logout</string>
+    <string name="newString">New</string>
+    <string name="back">Back</string>
+    <string name="themes">Themes</string>
+    <string name="theme">Theme</string>
+    <string name="sky">Sky</string>
+    <string name="jungle">Jungle</string>
+    <string name="rose">Rose</string>
+    <string name="lemon">Lemon</string>
+    <string name="violet">Violet</string>
+    <string name="tiger">Tiger</string>
+    <string name="taffy">Taffy</string>
+    <string name="lagoon">Lagoon</string>
+</resources>

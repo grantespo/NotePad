@@ -1,0 +1,96 @@
+<resources>
+
+
+    <!-- SKY THEME -->
+    <style name="SkyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/skyColorPrimary</item>
+        <item name="colorPrimaryDark">@color/skyColorPrimaryDark</item>
+        <item name="colorAccent">@color/skyColorAccent</item>
+        <item name="colorStart">@color/skyStartColor</item>
+        <item name="colorCenter">@color/skyCenterColor</item>
+        <item name="colorEnd">@color/skyEndColor</item>
+    </style>
+
+
+    <!-- JUNGLE THEME -->
+    <style name="JungleTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/jungleColorPrimary</item>
+        <item name="colorPrimaryDark">@color/jungleColorPrimaryDark</item>
+        <item name="colorAccent">@color/jungleColorAccent</item>
+        <item name="colorStart">@color/jungleStartColor</item>
+        <item name="colorCenter">@color/jungleCenterColor</item>
+        <item name="colorEnd">@color/jungleEndColor</item>
+    </style>
+
+    <!-- ROSE THEME -->
+    <style name="RoseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/roseColorPrimary</item>
+        <item name="colorPrimaryDark">@color/roseColorPrimaryDark</item>
+        <item name="colorAccent">@color/roseColorAccent</item>
+        <item name="colorStart">@color/roseStartColor</item>
+        <item name="colorCenter">@color/roseCenterColor</item>
+        <item name="colorEnd">@color/roseEndColor</item>
+    </style>
+
+    <!-- LEMON THEME -->
+    <style name="LemonTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lemonColorPrimary</item>
+        <item name="colorPrimaryDark">@color/lemonColorPrimaryDark</item>
+        <item name="colorAccent">@color/lemonColorAccent</item>
+        <item name="colorStart">@color/lemonStartColor</item>
+        <item name="colorCenter">@color/lemonCenterColor</item>
+        <item name="colorEnd">@color/lemonEndColor</item>
+    </style>
+
+    <!-- VIOLET THEME -->
+    <style name="PurpleTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/violetColorPrimary</item>
+        <item name="colorPrimaryDark">@color/violetColorPrimaryDark</item>
+        <item name="colorAccent">@color/violetColorAccent</item>
+        <item name="colorStart">@color/violetStartColor</item>
+        <item name="colorCenter">@color/violetCenterColor</item>
+        <item name="colorEnd">@color/violetEndColor</item>
+    </style>
+
+    <!-- TIGER THEME -->
+    <style name="TigerTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/tigerColorPrimary</item>
+        <item name="colorPrimaryDark">@color/tigerColorPrimaryDark</item>
+        <item name="colorAccent">@color/tigerColorAccent</item>
+        <item name="colorStart">@color/tigerStartColor</item>
+        <item name="colorCenter">@color/tigerCenterColor</item>
+        <item name="colorEnd">@color/tigerEndColor</item>
+    </style>
+
+    <!-- TAFFY THEME -->
+    <style name="TaffyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/taffyColorPrimary</item>
+        <item name="colorPrimaryDark">@color/taffyColorPrimaryDark</item>
+        <item name="colorAccent">@color/taffyColorAccent</item>
+        <item name="colorStart">@color/taffyStartColor</item>
+        <item name="colorCenter">@color/taffyCenterColor</item>
+        <item name="colorEnd">@color/taffyEndColor</item>
+    </style>
+
+    <!-- Lagoon THEME -->
+    <style name="LagoonTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/lagoonColorPrimary</item>
+        <item name="colorPrimaryDark">@color/lagoonColorPrimaryDark</item>
+        <item name="colorAccent">@color/lagoonColorAccent</item>
+        <item name="colorStart">@color/lagoonStartColor</item>
+        <item name="colorCenter">@color/lagoonCenterColor</item>
+        <item name="colorEnd">@color/lagoonEndColor</item>
+    </style>
+
+
+
+
+</resources>

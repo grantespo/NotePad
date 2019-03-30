@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--SKY THEME COLORS -->
+    <color name="skyColorPrimary">#4f66e7</color>
+    <color name="skyColorPrimaryDark">#93abf4</color>
+    <color name="skyColorAccent">#2971f5</color>
+    <color name="skyStartColor">#153186</color>
+    <color name="skyCenterColor">#2261b4</color>
+    <color name="skyEndColor">#4a67c2</color>
+
+    <!--JUNGLE THEME COLORS -->
+    <color name="jungleColorPrimary">#5CE44D</color>
+    <color name="jungleColorPrimaryDark">#92F177</color>
+    <color name="jungleColorAccent">#3BA71C</color>
+    <color name="jungleStartColor">#2A8615</color>
+    <color name="jungleCenterColor">#38B422</color>
+    <color name="jungleEndColor">#56C24A</color>
+
+    <!-- ROSE THEME COLORS -->
+    <color name="roseColorPrimary">#E44D4D</color>
+    <color name="roseColorPrimaryDark">#F1777B</color>
+    <color name="roseColorAccent">#A71C21</color>
+    <color name="roseStartColor">#861515</color>
+    <color name="roseCenterColor">#B42227</color>
+    <color name="roseEndColor">#C24A4A</color>
+
+    <!-- LEMON THEME COLORS -->
+    <color name="lemonColorPrimary">#EBF31C</color>
+    <color name="lemonColorPrimaryDark">#ECEB65</color>
+    <color name="lemonColorAccent">#F0EC27</color>
+    <color name="lemonStartColor">#F0EB09</color>
+    <color name="lemonCenterColor">#F7F321</color>
+    <color name="lemonEndColor">#F3F85F</color>
+
+    <!-- VIOLET THEME COLORS -->
+    <color name="violetColorPrimary">#AF4DE4</color>
+    <color name="violetColorPrimaryDark">#C277F1</color>
+    <color name="violetColorAccent">#721CA7</color>
+    <color name="violetStartColor">#4E1586</color>
+    <color name="violetCenterColor">#6622B4</color>
+    <color name="violetEndColor">#744AC2</color>
+
+    <!-- TIGER THEME COLORS -->
+    <color name="tigerColorPrimary">#E4934D</color>
+    <color name="tigerColorPrimaryDark">#F1BA77</color>
+    <color name="tigerColorAccent">#EC7F0A</color>
+    <color name="tigerStartColor">#F39101</color>
+    <color name="tigerCenterColor">#FCAB33</color>
+    <color name="tigerEndColor">#FDB140</color>
+
+    <!-- TAFFY THEME COLORS -->
+    <color name="taffyColorPrimary">#E44DDC</color>
+    <color name="taffyColorPrimaryDark">#ED77F1</color>
+    <color name="taffyColorAccent">#E220D8</color>
+    <color name="taffyStartColor">#DD11D2</color>
+    <color name="taffyCenterColor">#CE23D5</color>
+    <color name="taffyEndColor">#C24ABC</color>
+
+    <!-- Lagoon THEME COLORS -->
+    <color name="lagoonColorPrimary">#4DE4C6</color>
+    <color name="lagoonColorPrimaryDark">#77F1CE</color>
+    <color name="lagoonColorAccent">#20E2B5</color>
+    <color name="lagoonStartColor">#11DDB4</color>
+    <color name="lagoonCenterColor">#23D5B1</color>
+    <color name="lagoonEndColor">#4AC2AA</color>
+
+</resources>

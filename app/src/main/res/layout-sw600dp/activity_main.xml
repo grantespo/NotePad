@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/mainHeader"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:orientation="horizontal"
+        android:background="@drawable/headbg"
+        android:layout_width="0dp"
+        android:layout_height="72dp">
+
+        <TextView
+            android:id="@+id/mainTitle"
+            android:text="@string/app_name"
+            android:fontFamily="serif"
+            android:layout_marginStart="35dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:textSize="40sp"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_weight="0.1"
+            android:id="@+id/mainTitle2Layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/mainTitle2"
+                android:text="@string/newString"
+                android:background="@drawable/roundedcorner"
+                android:layout_marginEnd="10dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif"
+                android:textAlignment="center"
+                android:textSize="27sp"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mainRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/mainFooter"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/mainHeader"/>
+
+    <ProgressBar
+        android:id="@+id/mainProgBar"
+        android:visibility="gone"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/mainFooter"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:id="@+id/mainFooter"
+        android:orientation="horizontal"
+        android:background="@drawable/footbg"
+        android:layout_width="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="75dp">
+
+        <LinearLayout
+            android:layout_weight="0.25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/mainFooterTitle"
+                android:text="@string/copyright"
+                android:fontFamily="serif"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textColor="#030303"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="0.25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/mainTerms"
+                android:text="@string/terms"
+                android:textColor="#010df2"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                tools:ignore="NestedWeights" />
+
+            <TextView
+                android:id="@+id/mainprivacy"
+                android:text="@string/privacy"
+                android:gravity="center"
+                android:textColor="#010df2"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="0.25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/mainThemes"
+                android:text="@string/themes"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:textColor="?attr/colorStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="0.25"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+
+            <com.google.android.gms.common.SignInButton
+                android:visibility="gone"
+                app:buttonSize="icon_only"
+                android:id="@+id/mainLoginButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/mainLogoutButton"
+                android:text="@string/privacy"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

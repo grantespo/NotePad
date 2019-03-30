@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateNote">
+
+    <LinearLayout
+        android:id="@+id/createNoteHeader"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:orientation="horizontal"
+        android:background="@drawable/headbg"
+        android:layout_width="0dp"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/createNoteBack"
+            android:text="@string/back"
+            android:background="@drawable/roundedcorner"
+            android:layout_marginStart="5dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:layout_gravity="center"
+            android:fontFamily="serif"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:id="@+id/createNoteMainBar"
+            android:layout_weight="0.8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/mainTitle"
+                android:text="@string/notes"
+                android:fontFamily="serif"
+                android:layout_marginStart="15dp"
+                android:layout_gravity="center_vertical"
+                android:textSize="27sp"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_weight="0.1"
+            android:id="@+id/createNoteTitle2Layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/createNoteTitle2"
+                android:text="@string/save"
+                android:background="@drawable/roundedcorner"
+                android:layout_marginEnd="5dp"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:fontFamily="serif"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textColor="#ffffff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/createNoteDateTextLayout"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/createNoteHeader"
+        android:layout_width="0dp"
+        android:layout_height="30dp">
+
+        <TextView
+            android:id="@+id/createNoteDateText"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="@string/today"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/createNoteTitle"
+        android:hint="@string/title"
+        android:inputType="text"
+        android:maxLines="1"
+        android:fontFamily="serif"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/createNoteDateTextLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/createNoteBody"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fontFamily="serif"
+        android:gravity="top"
+        android:hint="@string/body"
+        android:inputType="textMultiLine"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/createNoteTitle"
+        app:layout_constraintBottom_toTopOf="@id/createNoteDeleteLayout"
+        tools:ignore="Autofill" />
+
+    <LinearLayout
+        android:id="@+id/createNoteDeleteLayout"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/createNoteBody"
+        app:layout_constraintBottom_toTopOf="@id/createNoteFooter">
+
+        <TextView
+            android:layout_weight="0.35"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_weight="0.3"
+            android:id="@+id/createNoteDelete"
+            android:textColor="#f90101"
+            android:gravity="center"
+            android:background="?attr/selectableItemBackground"
+            android:text="@string/deletenote"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_weight="0.35"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/createNoteProgBar"
+        android:layout_marginEnd="50dp"
+        android:visibility="gone"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/createNoteFooter"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+    <ProgressBar
+        android:id="@+id/createNoteProgBar2"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:id="@+id/createNoteFooter"
+        android:orientation="horizontal"
+        android:background="@drawable/footbg"
+        android:layout_width="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_height="50dp">
+
+        <LinearLayout
+            android:layout_weight="0.33"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/createNoteFooterTitle"
+                android:text="@string/copyright"
+                android:fontFamily="serif"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="9sp"
+                android:textColor="#030303"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="SmallSp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="0.33"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/createNoteTerms"
+                android:text="@string/terms"
+                android:textColor="#010df2"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                tools:ignore="NestedWeights,SmallSp" />
+
+            <TextView
+                android:id="@+id/createNoteprivacy"
+                android:text="@string/privacy"
+                android:gravity="center"
+                android:textColor="#010df2"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                android:textSize="11sp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                tools:ignore="SmallSp" />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="0.33"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+
+            <com.google.android.gms.common.SignInButton
+                android:visibility="gone"
+                android:id="@+id/createNoteLoginButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <Button
+                android:id="@+id/createNoteLogoutButton"
+                android:text="@string/logout"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
